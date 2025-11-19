@@ -1,0 +1,15 @@
+<h1 style="text-align: center">Counter App</h1>
+
+<div>
+  <h3 class="count">{{ count }}</h3>
+
+  <div style="text-align: center">
+    <button class="btn bg-red" (click)="handleCounter('minus')">
+      Decrement
+    </button>
+    <button class="btn bg-black" (click)="handleCounter('reset')">Reset</button>
+    <button class="btn bg-green" (click)="handleCounter('plus')">
+      Increment
+    </button>
+  </div>
+</div>
