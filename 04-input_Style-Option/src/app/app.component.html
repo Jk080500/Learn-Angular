@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>GET and SET Input Field Value</h1>
+  <h2>{{ username }}</h2>
+  <input
+    class="input"
+    value="{{ username }}"
+    (input)="getUsername($event)"
+    type="text"
+    #usernameField
+    placeholder="enter user name"
+  />
+  <br /><br />
+  <button (click)="setUsername()">Set User Name</button>
+  &nbsp;
+  <button (click)="getUserNameWithTemplate(usernameField.value)">
+    Get User Name
+  </button>
+</div>
+
+<app-style-option-and-rules></app-style-option-and-rules>

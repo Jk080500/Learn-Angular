@@ -1,0 +1,7 @@
+/* This css  file belogns to only style-option-and-rules component only */
+
+h1 {
+  color: red;
+  text-transform: uppercase;
+  font-weight: 600;
+}
